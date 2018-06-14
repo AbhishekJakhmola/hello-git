@@ -1,0 +1,57 @@
+1. 	git config --global user.name "Sam Smith"
+	git config --global user.email sam@example.com
+
+	Tell Git who you are.Configure the author name and email address to be used with your commits.
+	Note that Git strips some characters (for example trailing periods) from user.name.
+
+2.	git init
+
+	Create a new local repository
+
+3.	git clone /path/to/repository
+
+	Check out a repository. Create a working copy of a local repository.
+
+4.	git clone username@host:/path/to/repository
+
+	For a remote server, use.
+
+5.	git add <filename>
+	git add *
+
+	Add one or more files to staging (index).
+
+6.	git commit -m "Commit message"
+
+	Commit changes to head (but not yet to the remote repository).
+
+7.	git commit -a
+
+	Commit any files you've added with git add, and also commit any files you've changed since then.
+
+8.	git push origin master
+
+	Send changes to the master branch of your remote repository.
+
+9.	git status
+
+	List the files you've changed and those you still need to add or commit.
+
+10.	git merge <branchname>
+
+	To merge a different branch into your active branch.
+
+11.	git add <filename>
+
+	After you have manually resolved any conflicts, you mark the changed file.
+
+12.	git log
+
+	CommitId is the leading characters of the changeset ID, up to 10, but must be unique. Get the ID using.
+
+13.	git checkout -- <filename>
+
+	If you mess up, you can replace the changes in your working tree with the last content in head:
+	Changes already added to the index, as well as new files, will be kept.
+
+
